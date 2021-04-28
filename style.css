@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #00ff6e;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+div {
+    display: inline-block;
+    width: 40%;
+    height: 594px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+pre {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 40px;
+}
+
+.foto {
+    position: relative;
+    overflow: hidden;
+}
+
+.mama {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 90px;
+    left: 95px;
+    border-radius: 50%;
+}
+
+.puokste {
+    width: 100%;
+    height: 594px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+    border-radius: 50% 0;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-image: url(hart.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #00ff6e;
+}
+footer p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
